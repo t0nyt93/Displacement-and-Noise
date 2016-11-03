@@ -1,0 +1,28 @@
+
+##OpenGL GLIB
+
+Perspective 70
+LookAt 0 0 3  0 0 0  0 1 0
+
+
+
+Vertex		coscos.vert
+Fragment	coscos.frag
+Program		CosCos					\
+		uA <0. 0. 5.>				\
+		uB <-10. 0. 20.>				\
+		uC <-10. 0. 20.>				\
+                uNoiseAmp <0. 0. 5.>			\
+                uNoiseFreq <0. 0. 5.>			\
+                uKa <0. 0.1 1.0>                        \
+                uKd <0. 0.6 1.0>                        \
+                uKs <0. 0.3 1.0>                        \
+                uShininess <1. 10. 50.>               \
+                uLightX <-20. 5. 20.>                   \
+                uLightY <-20. 10. 20.>                  \
+                uLightZ <-20. 20. 20.>                  \
+                uColor {1. .7 0. 1.}                    \
+                uSpecularColor {1. 1. 1. 1.}
+
+
+QuadXY  -0.2  1.  50 50
